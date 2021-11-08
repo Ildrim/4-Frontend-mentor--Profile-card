@@ -13,6 +13,14 @@ body {
   background-repeat: no-repeat, no-repeat;
 }
 
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .card-container {
   background-image: url("images/bg-pattern-card.svg");
   background-position: top;
@@ -20,8 +28,9 @@ body {
   background-size: contain;
   background-color: hsl(0, 0%, 100%);
 
+  width:100%;
   max-width: 331px;
-  margin:20vh auto;
+
 
   text-align: center;
   font-family: 'Kumbh Sans', sans-serif;
