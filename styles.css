@@ -47,7 +47,6 @@ main{
   border:5px solid hsl(0, 0%, 100%);
   border-radius: 50%;
   overflow:hidden;
-  width:min-content;
   margin-top:25%;
 }
 
